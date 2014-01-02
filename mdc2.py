@@ -227,8 +227,8 @@ while runningFlag:
             print "    Last\t :\t$%f" % (mtg_last)
         if euro:
             print "Date:", e_mtgtime.strftime("%Y-%m-%d %H:%M:%S")
-            print "    Average\t :\t�%f" % (e_mtg_avg)
-            print "    Last\t :\t�%f" % (e_mtg_last)        
+            print "    Average\t :\t€%f" % (e_mtg_avg)
+            print "    Last\t :\t€%f" % (e_mtg_last)        
     if btce:
         print "BTC-E"
         if usd:
@@ -237,8 +237,8 @@ while runningFlag:
             print "    Last\t : \t$%f" % (btce_last)
         if euro:
             print "Date:", e_btcetime.strftime("%Y-%m-%d %H:%M:%S")
-            print "    Average\t :\t�%f" % (e_btce_avg)
-            print "    Last\t : \t�%f" % (e_btce_last)
+            print "    Average\t :\t€%f" % (e_btce_avg)
+            print "    Last\t : \t€%f" % (e_btce_last)
             
     if ((bit==True) and (usd == True)):
         print "Bitstamp"
